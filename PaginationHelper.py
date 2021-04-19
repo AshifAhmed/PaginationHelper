@@ -30,8 +30,8 @@ class PaginationHelper:
 # x = PaginationHelper(["a", "b", "c", "d", "e", "f"], 4)
 # x = PaginationHelper([], 2)
 # x = PaginationHelper(["a", "b", "c", "d", "e", "f","g","h"], 4)
-x = PaginationHelper(["a", "b", "c", "d", "e", "f","a", "b", "c", "d", "e", "f","g","h"], 13)
-x = PaginationHelper(["a", "b", "c", "d", "e", "f","a", "b", "c", "d", "e", "f","g","h"], 18)
+#x = PaginationHelper(["a", "b", "c", "d", "e", "f","a", "b", "c", "d", "e", "f","g","h"], 13)
+#x = PaginationHelper(["a", "b", "c", "d", "e", "f","a", "b", "c", "d", "e", "f","g","h"], 18)
 x = PaginationHelper(["a", "b", "c", "d", "e", "f","a", "b", "c", "d", "e", "f","g","h"], 5)
 
 print(x.pageCount())
